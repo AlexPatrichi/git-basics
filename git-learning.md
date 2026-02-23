@@ -101,18 +101,20 @@ It shows progression, workflow practices, and lessons learned while building my 
 
 ## Entry 8: Upload Local Folder to a New GitHub Repository
 
-I had an existing local folder (git-basics) that I wanted to publish to GitHub as a new repository.  
+>I had an existing local folder (git-basics) that I wanted to publish to GitHub as a new repository.  
+>
+>- First, I navigated to the folder and initialized Git using git init.  
+>- I staged all files with git add **-A**, which ensures Git tracks all new, modified, and deleted files.  
+>- I committed the changes locally using **git commit**.  
+>- On GitHub, I created an empty repository (no README, no .gitignore) and connected my local folder to it using git remote add origin repository URL.  
+>- Finally, I pushed the folder to GitHub and set the upstream branch using **git push -u >origin main**.  
+>
+>Key commands:  
+>git init  
+>git add -A  
+>git commit -m "Initial commit git-basics"  
+>git remote add origin https://github.com/AlexPatrichi/git-basics.git  
+>git branch -M main  
+>git push -u origin main  
 
-- First, I navigated to the folder and initialized Git using git init.  
-- I staged all files with git add **-A**, which ensures Git tracks all new, modified, and deleted files.  
-- I committed the changes locally using **git commit**.  
-- On GitHub, I created an empty repository (no README, no .gitignore) and connected my local folder to it using git remote add origin repository URL.  
-- Finally, I pushed the folder to GitHub and set the upstream branch using **git push -u origin main**.  
-
-Key commands:  
-git init  
-git add -A  
-git commit -m "Initial commit git-basics"  
-git remote add origin https://github.com/AlexPatrichi/git-basics.git  
-git branch -M main  
-git push -u origin main  
+------
