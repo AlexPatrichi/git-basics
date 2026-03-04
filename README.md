@@ -12,7 +12,7 @@ The goal is to develop disciplined Git usage, understand repository management, 
 --- 
 
 ## Repository Structure  
-📘 **git-learning.md**  
+📘 **git_learning.md**  
 
 Documents:  
 - Hands-on challenges encountered  
@@ -22,7 +22,7 @@ Documents:
  
 This file tracks progression and problem-solving over time.  
 
-📗 **git-commands.md**   
+📗 **git_commands.md**   
 
 Documents:  
 - Essential Git commands used in practice  
