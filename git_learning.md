@@ -117,4 +117,20 @@ It shows progression, workflow practices, and lessons learned while building my 
 >git branch -M main  
 >git push -u origin main  
 
+------  
+
+## Entry 9: Creating a **.gitignore** and Managing **.exe** Files
+
+>- I learned how to create a **.gitignore file** to prevent certain files from being tracked by Git.   
+>- Added *.exe to ignore all compiled executables, which keeps the repository clean and focused on source files (.c, .h).  
+>- I also discovered git rm --cached <file>, which removes files from Git tracking without deleting them locally.   
+>- Staged, committed, and pushed the updates to GitHub.  
+>
+>Key commands:  
+>echo "*.exe" >> .gitignore      # Add all .exe files to be ignored  
+>git add .gitignore              # Stage the updated .gitignore  
+>git rm --cached <file.exe>      # Stop tracking already committed exe files  
+>git commit -m "Add .gitignore to ignore executables"  
+>git push -u origin main         # Push changes to GitHub  
+
 ------
