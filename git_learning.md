@@ -127,10 +127,10 @@ It shows progression, workflow practices, and lessons learned while building my 
 >- Staged, committed, and pushed the updates to GitHub.  
 >
 >Key commands:  
->echo "*.exe" >> .gitignore      # Add all .exe files to be ignored  
->git add .gitignore              # Stage the updated .gitignore  
->git rm --cached <file.exe>      # Stop tracking already committed exe files  
+>echo "*.exe" >> .gitignore       
+>git add .gitignore              
+>git rm --cached *file.exe*        
 >git commit -m "Add .gitignore to ignore executables"  
->git push -u origin main         # Push changes to GitHub  
+>git push -u origin main        
 
 ------
