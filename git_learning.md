@@ -144,8 +144,8 @@ It shows progression, workflow practices, and lessons learned while building my 
 >I verified the connection and successfully pushed changes to ensure everything was correctly linked.
 >This process helped me understand how Git connects local repositories to remote ones and how to troubleshoot common issues when repository details change.
 
->Key commands:
->git remote -v
->git remote set-url origin https://github.com/AlexPatrichi/cybersecurity-portfolio.git
->git remote -v
->git push -u origin main
+>Key commands:  
+>git remote -v  
+>git remote set-url origin https://github.com/AlexPatrichi/cybersecurity-portfolio.git  
+>git remote -v  
+>git push -u origin main  
