@@ -134,3 +134,18 @@ It shows progression, workflow practices, and lessons learned while building my 
 >git push -u origin main        
 
 ------
+
+## Entry 10: Renaming Repository and Updating Remote Connection
+
+>- I learned how to rename a repository on GitHub and update the local Git configuration to maintain a working connection.
+>- After renaming the repository, I encountered a “repository not found” error when pushing changes. 
+>This happened because the local repository was still linked to the old remote URL.
+>- To fix this, I updated the remote origin using Git Bash to point to the new repository name. 
+>I verified the connection and successfully pushed changes to ensure everything was correctly linked.
+>This process helped me understand how Git connects local repositories to remote ones and how to troubleshoot common issues when repository details change.
+
+>Key commands:
+>git remote -v
+>git remote set-url origin https://github.com/AlexPatrichi/cybersecurity-portfolio.git
+>git remote -v
+>git push -u origin main
